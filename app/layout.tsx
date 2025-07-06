@@ -12,7 +12,7 @@ const exo2 = Exo_2({
 
 // Update metadatag
 export const metadata: Metadata = {
-  title: "SmartHire-AI",
+  title: "HireQuest-AI",
   icons: {
     icon: '/logo1.svg', // ← Favicon set here
   },

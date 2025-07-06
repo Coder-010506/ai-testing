@@ -8,7 +8,7 @@ export function SparklesPreview() {
         <img src="/logo2.png" alt="robot logo" width={200} height={160} className="transform scale-110" />
           
       <h1 className="md:text-6xl text-4xl lg:text-9xl font-bold text-center text-white relative z-20">
-        SmartHire-AI
+        HireQuest-AI
       </h1>
       <div className="w-full h-40 relative">
         {/* Gradients */}

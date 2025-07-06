@@ -33,6 +33,7 @@ const InterviewCard = async ({
     Behavioral: "bg-green-700 text-green-200",
     Mixed: "bg-yellow-700 text-yellow-200",
     Technical: "bg-blue-700 text-blue-200",
+    System_Design: "bg-red-700 text-red-200",
   }[normalizedType] || "bg-gray-700 text-gray-200";
 
   const formattedDate = dayjs(

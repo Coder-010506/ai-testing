@@ -1,39 +1,48 @@
-<h1 align="center">SmartHireAI</h1>
+<<h1 align="center">🚀 HireQuestAI</h1>
 
 <p align="center">
-  <b>An AI-powered mock interview platform built during HackHazards '25</b><br/>
+  <b>An AI-powered mock interview platform</b><br/>
   Simulates recruiter-like interviews, delivers real-time insights, and empowers job seekers with personalized feedback.
 </p>
 
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-Framework-black?logo=next.js" alt="Next.js Badge"/>
+  <img src="https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase" alt="Firebase Badge"/>
+  <img src="https://img.shields.io/badge/Groq-LLM-blueviolet" alt="Groq Badge"/>
+  <img src="https://img.shields.io/badge/Vapi-Voice AI-6aa84f" alt="Vapi Badge"/>
+</p>
 
 ---
 
 ## 🔍 Overview
 
-SmartHireAI is a full-stack, AI-driven platform that mimics real interviews using ultra-fast AI models. Designed to aid in mock preparation for both technical and behavioral rounds, it provides instant feedback, personalized analytics, and voice-powered interactions — all in a beautifully intuitive interface.
+**HireQuestAI** is a full-stack, AI-driven platform built to replicate real-world interviews. It helps users prepare for technical and behavioral rounds with:
 
-> 🏆 Built for [HackHazards '25](https://hackhazards.tech)  
-> 🎯 Ranked **Top 100 teams** out of **5700+ solo hackers** and **2900+ teams**
+- ⚡ Ultra-low latency voice conversations
+- 🎯 Context-aware question generation
+- 📊 Real-time feedback and improvement suggestions
+- 🧠 Personalized analytics over time
+
+Whether you're preparing for a software engineering job or practicing soft skills, **HireQuestAI** brings mock interviews to the next level.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- **🎯 Custom Interview Modes**  
-  Web Dev, DSA, System Design, and Behavioral
+- 🎯 **Custom Interview Modes**  
+  Choose between Web Dev, DSA, System Design, and Behavioral rounds.
 
-- **🎤 Interactive Sessions**  
-  Video-enabled mock interviews with voice agents for realism
+- 🎤 **Interactive Voice Interviews**  
+  Realistic, video-enabled mock sessions powered by voice AI agents.
 
-- **⚡ Instant Question Generation**  
-  Mode-specific questions from Groq’s ultra-low-latency LLMs
+- ⚡ **Instant Question Generation**  
+  Ultra-fast Groq LLMs generate contextual and difficulty-matched questions.
 
-- **📊 Real-Time Feedback**  
-  Instant analysis and AI-generated suggestions to improve
+- 📊 **Live Feedback & Analytics**  
+  Immediate suggestions, transcript-based feedback, and session history.
 
-- **🧠 Personalized Insights**  
-  Tracks strengths, weaknesses, and progress over time
+- 🧠 **Smart Tracking**  
+  Monitors your progress, identifies strong and weak areas automatically.
 
 ---
 
@@ -42,23 +51,16 @@ SmartHireAI is a full-stack, AI-driven platform that mimics real interviews usin
 | Frontend         | Backend/Infra         | AI & Tools           |
 |------------------|------------------------|----------------------|
 | Next.js          | Firebase Auth + DB     | Groq LLM APIs        |
-| TypeScript       | Firestore              | Vapi (voice agent)   |
+| TypeScript       | Firestore              | Vapi (Voice Agent)   |
 | Tailwind CSS     | Firebase Hosting       | Aceternity UI        |
-
----
-
-## 🖼️ Demo Preview
-
-> https://www.youtube.com/watch?v=ZbonmEFXMhg&t=13s
 
 ---
 
 ## 🚀 Getting Started
 
-Clone and run locally:
+### 🔧 Installation
 
 ```bash
-git clone https://github.com/abhijeethere1/SmartHireAI.git
-cd SmartHireAI
+git clone https://github.com/Coder-010506/ai-testing.git
+cd ai-testing
 npm install
-npm run dev

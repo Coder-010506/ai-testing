@@ -17,7 +17,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2 text-xl font-semibold text-gray-800 dark:text-white">
             <Image src="/logo2.png" alt="logo" width={40} height={40} className="rounded-full" />
-            <span>SmartHire-AI</span>
+            <span>HireQuest-AI</span>
           </Link>
         </div>
 
