@@ -5,11 +5,7 @@
   Simulates recruiter-like interviews, delivers real-time insights, and empowers job seekers with personalized feedback.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HackHazards-Top%20100-blueviolet" />
-  <img src="https://img.shields.io/badge/Built%20With-Next.js%20%7C%20TypeScript%20%7C%20Groq%20%7C%20Firebase-informational" />
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
-</p>
+
 
 ---
 

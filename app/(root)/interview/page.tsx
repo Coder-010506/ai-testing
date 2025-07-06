@@ -1,8 +1,9 @@
+
 import Agent from "@/components/Agent";
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { ShootingStars } from "@/components/ui/shooting-stars";
-
+import React from "react";
 const Page = async () => {
   const user = await getCurrentUser();
 
@@ -25,7 +26,6 @@ const Page = async () => {
         <Agent
             userName={user?.name!}
             userId={user?.id}
-            profileImage={user?.profileURL}
             type="generate"
           />
         </div>

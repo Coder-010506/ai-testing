@@ -10,21 +10,21 @@ export async function POST(request: Request) {
   try {
     const { text: questionsText } = await generateText({
       model: groq("llama3-70b-8192"), 
-      prompt: `
-        Prepare questions for a job interview.
+      prompt: `Prepare questions for a job interview.
         The job role is ${role}.
         The job experience level is ${level}.
         The tech stack used in the job is: ${techstack}.
         The focus between behavioural and technical questions should lean towards: ${type}.
         The amount of questions required is: ${amount}.
+        Respond ONLY with a JSON array of strings, no explanation or extra text.
         Please return only the questions, without any additional text.
         The questions are going to be read by a voice assistant so do not use "/" or "*" or any other special characters which might break the voice assistant.
         Return the questions formatted like this:
         ["Question 1", "Question 2", "Question 3"]
         
         Thank you! <3
-      `,
-      system: "You are a professional interviewer preparing job interview questions.", 
+    `,
+      
     });
 
     let questions: string[] = [];
@@ -40,7 +40,7 @@ export async function POST(request: Request) {
       role,
       type,
       level,
-      techstack: techstack.split(",").map((tech) => tech.trim()),
+      techstack: techstack.split(",").map((tech: string) => tech.trim()),
       questions,
       userId: userid,
       finalized: true,

@@ -119,7 +119,7 @@ export const interviewer: CreateAssistantDTO = {
     provider: "openai",
     model: "gpt-4",
     messages: [
-      {
+            {
         role: "system",
         content: `You are a professional job interviewer conducting a real-time voice interview with a candidate. Your goal is to assess their qualifications, motivation, and fit for the role.
 
@@ -154,6 +154,7 @@ End the conversation on a polite and positive note.
     ],
   },
 };
+
 
 export const feedbackSchema = z.object({
   totalScore: z.number(),
