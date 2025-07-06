@@ -45,11 +45,11 @@ export const GoogleGeminiEffect = ({
   return (
     <div className={cn("sticky top-20", className)}>
       <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-300">
-        {title ?? "Level Up Your Interview Game with Real-Time AI Insights"}
+        {title ?? "Train Like A Pro, Interview Like A Boss !!"}
       </p>
       <p className="text-xs md:text-xl font-normal text-center text-neutral-400 mt-4 max-w-lg mx-auto ">
         {description ??
-          "Dive into real interview simulations and get instant feedback on your communication, problem-solving, and tech stack proficiency"}
+          "Simulate real interviews. Get instant insights into your communication, problem-solving, and tech skills."}
       </p>
 
       <div className="mt-40 w-full h-[890px] -top-60 md:-top-38 flex items-center justify-center bg-transparent absolute">
