@@ -5,7 +5,7 @@ import { SparklesCore } from "./ui/sparkles";
 export function SparklesPreview() {
   return (
     <div className="h-[45rem] w-full flex flex-col items-center justify-center border-0 overflow-hidden rounded-full">
-        <img src="/logo2.png" alt="robot logo" width={200} height={160} className="transform scale-110" />
+        <img src="/logo2.png" alt="Animated logo" width={200} height={160}  className="transform scale-110" />
           
       <h1 className="md:text-6xl text-4xl lg:text-9xl font-bold text-center text-white relative z-20">
         HireQuest-AI
