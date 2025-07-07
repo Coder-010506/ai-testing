@@ -25,7 +25,7 @@
 
 Whether you're preparing for a software engineering job or practicing soft skills, **HireQuestAI** brings mock interviews to the next level.
 
----
+🎬 [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1lKv2t8h-YZhhhPezd6ZLcL8oDD_IUHr4/view?usp=drive_link)
 
 ## ✨ Features
 
