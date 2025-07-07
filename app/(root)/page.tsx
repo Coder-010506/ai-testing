@@ -115,7 +115,7 @@ async function Home() {
 
         {/* View All Interviews Button */}
         <div className="flex justify-center">
-          <Button asChild className="bg-blue-800 hover:bg-blue-500 text-white px-6 py-3 text-lg rounded-xl shadow-md">
+          <Button asChild className="bg-blue-900 hover:bg-blue-700 text-white px-6 py-3 text-lg rounded-xl shadow-md">
             <Link href="/allinterviews">View All Interviews</Link>
           </Button>
         </div>
