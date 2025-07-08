@@ -13,6 +13,9 @@
 </p>
 
 ---
+## 🌐 Live Demo
+
+You can try the app live here: [https://ai-testing-sigma.vercel.app/]
 
 ## 🔍 Overview
 
