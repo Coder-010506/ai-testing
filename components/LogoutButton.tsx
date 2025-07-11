@@ -13,7 +13,7 @@ const LogoutButton = () => {
     startTransition(async () => {
       const result = await logout();
       if (result.success) {
-        router.push("/sign-in"); // after logout, move to sign-in
+        router.push("/"); // after logout, move to sign-in
       } else {
         console.error(result.message);
       }

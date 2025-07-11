@@ -12,7 +12,7 @@ import { SparklesPreview } from "@/components/SparklesPreview";
 import { GoogleGeminiEffectDemo } from "@/components/GoogleGeminiEffectDemo";
 import { dummyInterviews } from "@/constants";
 
-async function Home() {
+async function dashboard() {
   const user = await getCurrentUser();
 
   const [userInterviews, allInterview] = await Promise.all([
@@ -36,7 +36,7 @@ async function Home() {
   return (
     <>
       <div className="w-full flex items-center justify-center px-6 py-4 shadow-sm">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/dashboard" className="flex items-center gap-2">
           <SparklesPreview />
         </Link>
       </div>
@@ -114,4 +114,4 @@ async function Home() {
   );
 }
 
-export default Home;
+export default dashboard;

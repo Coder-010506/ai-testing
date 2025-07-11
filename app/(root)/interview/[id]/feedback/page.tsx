@@ -24,7 +24,7 @@ const Feedback = async ({ params }: RouteParams) => {
   const user = await getCurrentUser();
 
   const interview = await getInterviewById(id);
-  if (!interview) redirect("/");
+  if (!interview) redirect("/dashboard");
 
   const feedback = await getFeedbackByInterviewId({
     interviewId: id,
@@ -135,7 +135,7 @@ const Feedback = async ({ params }: RouteParams) => {
             </div>
             <div className="flex gap-4 w-full md:w-auto">
               <Link
-                href="/"
+                href="/dashboard"
                 className="flex-1 md:flex-none text-center px-5 py-2.5 rounded-lg border border-gray-600 bg-gray-800 hover:bg-gray-700 text-sm text-white transition-all"
               >
                 ← Back to Dashboard
